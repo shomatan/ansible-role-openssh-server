@@ -1,0 +1,6 @@
+---
+ssh_Port: 22
+ssh_PermitRootLogin: "no"
+ssh_PubkeyAuthentication: "yes"
+ssh_PermitEmptyPasswords: "no"
+ssh_PasswordAuthentication: "no"
