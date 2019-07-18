@@ -2,7 +2,7 @@
 # configure
 - name: Place sshd configuration file.
   template:
-    src: sshd_config.rhel-{{ ansible_distribution_major_version }}.j2
+    src: sshd_config.{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.j2
     dest: /etc/ssh/sshd_config
     mode: 0600
 
