@@ -4,4 +4,4 @@ ssh_PermitRootLogin: "no"
 ssh_PubkeyAuthentication: "yes"
 ssh_PermitEmptyPasswords: "no"
 ssh_PasswordAuthentication: "no"
-ssh_UseDNS: no
+ssh_UseDNS: "no"
